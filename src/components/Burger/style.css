@@ -1,0 +1,87 @@
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #FFF;
+  background-color: #e34b94;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  z-index: 100;
+  transition: transform .5s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.burger_active {
+  transform: translateX(0);
+}
+
+.burger__links {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.burger__links-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 121.7%; 
+}
+
+.burger__links-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.burger__link {
+  display: block;
+  text-decoration: none;
+  border-radius: 11.93px;
+  background: rgba(255, 255, 255, 0.11);
+  padding: 15px 12px 13px 12px;
+  transition: opacity .24s linear;
+}
+
+.burger__link:hover {
+  opacity: .7;
+}
+
+.burger__phone-info {
+}
+
+.burger__phone-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 121.7%;
+  margin-bottom: 15px;
+}
+
+.burger__phone-number {
+  margin: 0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.7%;
+}
+
+.burger__call-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 121.7%;
+  border: none;
+  border-radius: 11.93px;
+  background: #FCC11E;
+  padding: 16px 19.5px 17px 18.5px;
+  color: #FFF;
+  transition: opacity .24s linear;
+}
+
+.burger__call-btn:hover {
+  cursor: pointer;
+  opacity: .6;
+}
