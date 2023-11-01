@@ -3,6 +3,7 @@ import Burger from "./components/Burger/Burger";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import SupportImages from "./components/SupportImages/SupportImages";
+import Rules from "./components/Rules/Rules";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <main className="main">
         <Home />
+        <Rules />
       </main>
       <Burger burgerOpen={burgerOpen}/>
       <div onClick={burgerBtnHadler} className={burgerOpen ? 'burger-btn burger-btn_active' : 'burger-btn'}>

@@ -1,0 +1,256 @@
+.rules {
+  background-color: #FFF;
+}
+
+.rules__content {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .rules__content {
+   padding: 0 100px 0 100px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .rules__content {
+   padding: 0 20px 0 20px;
+  }
+}
+
+.rules__sub-heading {
+  margin: 0 0 8px 0;
+  color: #FCC11E;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 121.7%; /* 19.472px */
+  text-transform: uppercase;
+}
+
+.rules__heading {
+  margin: 0 0 67px 0;
+  color: #222;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 121.7%; 
+}
+
+@media screen and (max-width: 767.98px) {
+  .rules__heading {
+    font-size: 40px;
+  }
+}
+
+.rules__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__cards {
+    justify-content: center;
+  }
+}
+
+.rules__card-yellow-line {
+  position: absolute;
+  top: 44px;
+  left: 222px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-yellow-line {
+    display: none;
+  }
+}
+
+.rules__card-purple-line {
+  position: absolute;
+  top: 100px;
+  right: 476px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-purple-line {
+    display: none;
+  }
+}
+
+.rules__card-number-icon {
+  position: absolute;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-number-icon {
+    display: none;
+  }
+}
+
+.rules__card-number-icon_first {
+  left: 460px;
+  top: 50px;
+}
+
+.rules__card-number-icon_second {
+  right: 714px;
+  top: 240px;
+}
+
+.rules__card-number-icon_third {
+  left: 460px;
+  top: 50px;
+}
+
+.rules__card-number-icon_fourth {
+  right: 714px;
+  top: 240px;
+}
+
+.rules__card-qr_dis_block {
+  display: none;
+  width: 461px;
+  position: relative;
+}
+
+.rules__card-qr_dis_block .rules__qr-line {
+  top: 50px;
+  right: 30px;
+}
+
+@media screen and (max-width: 520px) {
+  .rules__card-qr_dis_block .rules__qr-line {
+    display: none;
+  }
+}
+
+.rules__card-qr_dis_block .rules__qr-img {
+  width: 304px;
+  height: 305px;
+}
+
+@media screen and (max-width: 520px) {
+  .rules__card-qr_dis_block .rules__qr-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.rules__card-qr_dis_block .rules__qr-text {
+  top: 0;
+  left: 230px;
+}
+
+@media screen and (max-width: 480px) {
+  .rules__card-qr_dis_block .rules__qr-text {
+    max-width: 120px;
+    left: 50px;
+    top: -50px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-qr_dis_block {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.rules__card-qr_pos_abs {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-qr_pos_abs {
+    display: none;
+  }
+}
+
+.rules__qr-text {
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  margin: 0;
+  color: #FCC11E;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 121.7%;
+  transform: rotate(23.473deg);
+}
+
+.rules__qr-line {
+  position: absolute;
+  right: -25px;
+  top: 20px;
+}
+
+.rules__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 461px;
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card {
+    text-align: center;
+  }
+}
+
+.rules__card:not(:last-child) {
+  margin-bottom: 112px;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+.rules__card:nth-child(2n) {
+  transform: translateY(194px);
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card:nth-child(2n) {
+    transform: translateY(0);
+  }
+}
+
+.rules__card:nth-child(2n) .rules__card-text {
+  color: #FCC11E;
+}
+
+.rules__card-text {
+  margin: 0 0 30px 0;
+  color: #552580;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 121.7%; 
+}
+
+.rules__card-subtext {
+  margin: 0;
+  color: #616161;
+  font-size: 18px;
+  line-height: 121.7%;
+}
+
+@media screen and (max-width: 1160px) {
+  .rules__card-img {
+    margin: 0 auto;
+  }
+}
