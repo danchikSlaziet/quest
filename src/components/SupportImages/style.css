@@ -34,15 +34,33 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1640px) {
+  .roks-img {
+    top: -120px;
+  }
+}
+
 @media screen and (min-width: 1700px) {
   .roks-img {
     top: -100px;
   }
 }
 
+@media screen and (min-width: 1790px) {
+  .roks-img {
+    top: -120px;
+  }
+}
+
 @media screen and (min-width: 1850px) {
   .roks-img {
     top: -200px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .roks-img {
+    top: -250px;
   }
 }
 

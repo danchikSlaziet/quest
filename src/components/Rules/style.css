@@ -2,46 +2,14 @@
   background-color: #FFF;
 }
 
-.rules__content {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
-@media screen and (max-width: 1279.98px) {
-  .rules__content {
-   padding: 0 100px 0 100px;
-  }
-}
-
-@media screen and (max-width: 767.98px) {
-  .rules__content {
-   padding: 0 20px 0 20px;
-  }
-}
-
 .rules__sub-heading {
   margin: 0 0 8px 0;
-  color: #FCC11E;
   text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 121.7%; /* 19.472px */
-  text-transform: uppercase;
 }
 
 .rules__heading {
   margin: 0 0 67px 0;
-  color: #222;
   text-align: center;
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 121.7%; 
-}
-
-@media screen and (max-width: 767.98px) {
-  .rules__heading {
-    font-size: 40px;
-  }
 }
 
 .rules__cards {

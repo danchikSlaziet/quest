@@ -17,11 +17,11 @@ export default function Rules() {
   return(
     <section className='rules'>
       <div className='auto-width'>
-        <div className='rules__content'>
-          <p className='rules__sub-heading'>
+        <div className='rules__content auto-padding'>
+          <p className='sub-heading rules__sub-heading'>
             увлекательная, весёлая и оригинальная
           </p>
-          <h2 className='rules__heading'>
+          <h2 className='heading rules__heading'>
             Игра «Городской квест»
           </h2>
           <div className='rules__cards'>

@@ -16,13 +16,53 @@ body {
   overflow: hidden;
 }
 
+.sub-heading {
+  color: #FCC11E;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 121.7%; /* 19.472px */
+  text-transform: uppercase;
+}
+
+.heading {
+  color: #222;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 121.7%; 
+}
+
+@media screen and (max-width: 767.98px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.auto-padding {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .auto-padding {
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .auto-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .auto-width {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .burger-btn {
-  position: absolute;
+  position: fixed;
   top: 40px;
   right: 100px;
   z-index: 100;

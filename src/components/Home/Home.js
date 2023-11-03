@@ -9,7 +9,7 @@ export default function Home() {
     <section className='home'>
       <img className='home__line-img' src={lineIMGPath} alt="пунктирная линия" />
       <div className='auto-width'>
-        <div className='home__content'>
+        <div className='home__content auto-padding'>
           <div className='home__presential'>
             <p className='home__text'>
               Квест с поиском секретных QR-кодов

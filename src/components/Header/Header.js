@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className='auto-width'>
-        <div className='header__content'>
+        <div className='header__content auto-padding'>
           <div className='header__company-info'>
             <a className='header__logo-link' href='#'>
               <img className='header__logo' src={logoPath} alt="звезда логотип vnqr.online" />
