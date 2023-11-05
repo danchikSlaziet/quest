@@ -10,7 +10,7 @@ export default function Home() {
       <img className='home__line-img' src={lineIMGPath} alt="пунктирная линия" />
       <div className='auto-width'>
         <div className='home__content auto-padding'>
-          <div className='home__presential'>
+          <div className='home__presential' data-aos="slide-right">
             <p className='home__text'>
               Квест с поиском секретных QR-кодов
             </p>
@@ -24,7 +24,7 @@ export default function Home() {
           <div className='home__cards'>
             <div className='home__cards-background'> 
             </div>
-            <div className='home__card card'>
+            <div className='home__card card' data-aos="fade-up">
               <div className='card__new-border'>
                 <img className='card__img' src={firstIMGPath} alt="картинка мультик" />
                 <p className='card__text'>
@@ -32,7 +32,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className='home__card card'>
+            <div className='home__card card' data-aos="fade-up">
               <div className='card__new-border'>
                 <img className='card__img' src={secondIMGPath} alt="картинка мультик" />
                 <p className='card__text'>
@@ -40,7 +40,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className='home__card card'>
+            <div className='home__card card' data-aos="fade-up">
               <div className='card__new-border'>
                 <img className='card__img' src={thirdIMGPath} alt="картинка мультик" />
                 <p className='card__text'>

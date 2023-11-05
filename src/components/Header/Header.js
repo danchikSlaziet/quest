@@ -5,7 +5,7 @@ import vkPath from '../../images/vk.svg';
 
 export default function Header() {
   return (
-    <header className="header">
+    <header data-aos="fade-down-right" className="header">
       <div className='auto-width'>
         <div className='header__content auto-padding'>
           <div className='header__company-info'>

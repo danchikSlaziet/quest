@@ -64,6 +64,11 @@
   background: rgba(34, 34, 34, 0.19);
   padding: 17px 18px 29px 30px;
   position: relative;
+  transition: transform .24s ease;
+}
+
+.game__card:hover {
+  transform: translateY(-10px);
 }
 
 .game__card-help {

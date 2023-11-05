@@ -7,11 +7,14 @@ export default function Form() {
     name: '',
     contacts: ''
   });
+  function submitHandler(evt) {
+    evt.preventDefault();
+  }
 
   return(
     <section className='form'>
       <div className='auto-width'>
-        <div className='form__content auto-padding'>
+        <div className='form__content auto-padding'   data-aos='fade-right' data-aos-offset='800'>
           <form className='form__main-form'>
             <img className='form__help-bg' src={helpBG} alt="" />
             <div className='form__info-block'>
@@ -28,7 +31,7 @@ export default function Form() {
               </p>
               <input onChange={(evt) => setValue({...value, name: evt.target.value})} placeholder='Имя' className='form__input' type="text" name="name" value={value.name} />
               <input onChange={(evt) => setValue({...value, contacts: evt.target.value})} placeholder='Телефон, почта, месенджер' className='form__input' type="text" name="contacts" value={value.contacts} />
-              <button className='form__submit' type="submit">
+              <button onClick={submitHandler} className='form__submit' type="submit">
                 Отправить
               </button>
               <p className='form__confident'>

@@ -24,8 +24,8 @@ export default function Rules() {
           <h2 className='heading rules__heading'>
             Игра «Городской квест»
           </h2>
-          <div className='rules__cards'>
-            <div className='rules__card'>
+          <div className='rules__cards' data-aos='fade-up'>
+            <div className='rules__card' data-aos='fade'>
               <img className='rules__card-yellow-line' src={yellowLinePath} alt="пунктирная линия кривая" />
               <img className='rules__card-number-icon rules__card-number-icon_first' src={number1IconPath} alt="номер один 1" />
               <img className='rules__card-img' src={firstIMGPath} alt="иконка сообщение" />

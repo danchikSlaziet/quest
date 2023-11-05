@@ -12,7 +12,7 @@ export default function SupportImages() {
       <img className='ellipse ellipse_right' src={rightEllipse} alt="ellipse эллипс" />
       <img className='ellipse ellipse_bottom' src={bottomEllipse} alt="ellipse эллипс" />
       <img className='roks-img' src={rocksIMGPath} alt="фон белые горы" />
-      <img className='main-img' src={mainIMGPath} alt="фото карты квесты" />
+      <img data-aos="slide-left" className='main-img' src={mainIMGPath} alt="фото карты квесты" />
     </>
   );
 }
