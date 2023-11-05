@@ -14,7 +14,7 @@ export default function Form() {
   return(
     <section className='form'>
       <div className='auto-width'>
-        <div className='form__content auto-padding'   data-aos='fade-right' data-aos-offset='800'>
+        <div className='form__content auto-padding' data-aos='fade-right'>
           <form className='form__main-form'>
             <img className='form__help-bg' src={helpBG} alt="" />
             <div className='form__info-block'>
