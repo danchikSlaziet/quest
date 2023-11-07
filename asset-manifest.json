@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quest/static/css/main.b3dc2418.css",
+    "main.css": "/quest/static/css/main.3f7363bf.css",
     "main.js": "/quest/static/js/main.c2875c62.js",
     "static/media/photos-2.jpg": "/quest/static/media/photos-2.139c5b84e13a1b7bce52.jpg",
     "static/media/photos-1.png": "/quest/static/media/photos-1.6b112a7a800f2ff94242.png",
@@ -55,14 +55,13 @@
     "static/media/telegram.svg": "/quest/static/media/telegram.5c49f94b1178a3b30cb7fc03cb3765b4.svg",
     "static/media/game-ellipse.svg": "/quest/static/media/game-ellipse.371b651ddd49a4a881064ab7f7808d78.svg",
     "static/media/rules-yellow-line.svg": "/quest/static/media/rules-yellow-line.feb218db79f85d7a1b37a625897ffba6.svg",
-    "static/media/game-tip-bg.svg": "/quest/static/media/game-tip-bg.0fd59e8e6604797fe597.svg",
     "static/media/rules-qr-line.svg": "/quest/static/media/rules-qr-line.81448175127d273453d99ead2d9bba5e.svg",
     "static/media/rules-purple-line.svg": "/quest/static/media/rules-purple-line.652391fe47c24513e4409f14636cfd23.svg",
-    "main.b3dc2418.css.map": "/quest/static/css/main.b3dc2418.css.map",
+    "main.3f7363bf.css.map": "/quest/static/css/main.3f7363bf.css.map",
     "main.c2875c62.js.map": "/quest/static/js/main.c2875c62.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3dc2418.css",
+    "static/css/main.3f7363bf.css",
     "static/js/main.c2875c62.js"
   ]
 }
