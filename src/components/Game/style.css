@@ -288,13 +288,16 @@
   justify-content: center;
   position: relative;
   width: 310px;
-  height: 143px;
-  background-image: url(../../images/game-tip-bg.svg);
+  padding: 33px 49px 44px 37px;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 0 40px 40px 40px;
 }
 
 @media screen and (max-width: 400px) {
   .game__tip {
     width: 250px;
+    padding: 23px 39px 34px 27px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -310,7 +313,7 @@
 .game__tip-text {
   max-width: 224px;
   margin: 0;
-  padding: 33px 0 0 0;
+  /* padding: 33px 0 0 0; */
   color: #552580;
   font-size: 18px;
   font-weight: 600;
@@ -320,7 +323,7 @@
 @media screen and (max-width: 400px) {
   .game__tip-text {
     font-size: 15px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 }
 
@@ -340,7 +343,7 @@
 
 @media screen and (max-width: 400px) {
   .game__tip-subtext {
-    bottom: 30px;
+    bottom: 8px;
   }
 }
 

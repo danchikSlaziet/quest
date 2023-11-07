@@ -165,6 +165,7 @@
   box-shadow: 0px 4px 83px 0px rgba(0, 0, 0, 0.05);
   padding: 18px 19px;
   transition: transform .4s ease;
+  max-width: 361px;
 }
 
 .card:hover {
@@ -184,6 +185,9 @@
 .card__img {
   width: 296px;
   aspect-ratio: 296 / 162;
+  border-radius: 18px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 450px) {
